@@ -1,0 +1,346 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+.header{
+	width: 100%;
+	height: 51px;
+	background: url(../images/header-bg.png) repeat-x;
+}
+.header ul{
+	float: right;
+	margin-top: 15px;
+}
+.header ul li {
+	float: left;
+	color: #fff;
+	margin-left: 37px;
+}
+.header ul li a{
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	font-weight: normal;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.header ul li a:hover,
+.header ul li a:focus,
+.header ul li a:active{
+	color: #71a9d0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.header ul li.on a{
+	color: #a3d4f7;
+}
+h1.logo{
+	height: 51px;
+	width: 206px;
+	float: left;
+	background: url(../images/white-rabbit-japan-logo.png) no-repeat;
+}
+h1.main{
+	/*font-family: "minion-pro",serif;*/
+	font-family: myriad, arial, helvetica;
+	font-size: 42px;
+	line-height: 48px;
+	margin-top: 60px;
+	margin-bottom: 11px;
+	text-align: center;
+}
+h2.main-sub{
+	/*font-family: "minion-pro",serif;*/
+	font-family: myriad, arial, helvetica;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	color: #838383;
+	text-align: center;
+	font-weight: normal;
+}
+h2{
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #555;
+}
+/*h2:hover{
+	text-decoration:underline;
+}*/
+p.intro{
+	font-size: 17px;
+	line-height: 28px;
+}
+.one-third.column a{
+	font-weight: bold;
+}	
+.footer{
+	background-color: #070707;
+	width: 100%;
+	height: 23px;
+}
+/* #Page Styles
+================================================== */
+.one-third.column,.eight.columns{
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px 1px #cecece;
+	box-shadow: 0px 0px 5px 1px #cecece;  
+	border: 1px solid #c7c7c7;
+	margin: 10px;
+    padding: 24px;
+    -webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.grey-hover{
+	-webkit-box-shadow: 0px 0px 5px 1px #999 !important;
+	box-shadow: 0px 0px 5px 1px #999 !important; 
+	border: 1px solid #aaa !important;
+}
+.one-third.column.green{
+	background: url(../images/green-corner.png) no-repeat top right #FFF;
+	cursor: pointer;
+}
+.one-third.column.pink{
+	background: url(../images/pink-corner.png) no-repeat top right #FFF;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.one-third.column.blue{
+	background: url(../images/blue-corner.png) no-repeat top right #FFF;
+	cursor: pointer;
+}
+.one-third.column{
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px 1px #cecece;
+	box-shadow: 0px 0px 5px 1px #cecece;  
+	border: 1px solid #c7c7c7;
+	margin: 10px;
+    padding: 24px;
+}
+.one-third.column.green-hover{
+	-webkit-box-shadow: 0px 0px 5px 100px #9ac492;
+	box-shadow: 0px 0px 5px 1px #9ac492;  
+	border: 1px solid #9ac492;
+}
+.one-third.column.blue-hover{
+	
+	-webkit-box-shadow: 0px 0px 5px 100px #9cc7e5;
+	box-shadow: 0px 0px 5px 1px #9cc7e5;  
+	border: 1px solid #9cc7e5;
+}
+.one-third.column.pink-hover{
+	-webkit-box-shadow: 0px 0px 5px 100px #f1aee4;
+	box-shadow: 0px 0px 5px 1px #f1aee4;  
+	border: 1px solid #f1aee4;
+}
+.one-third.column.green h2,
+.one-third.column.green a{
+	color: #5ea251;
+}
+.one-third.column.pink h2,
+.one-third.column.pink a{
+	color: #e850ca;
+}
+.one-third.column.blue h2,
+.one-third.column.blue a{
+	color: #0073c3;
+}
+.one-third.column img{
+	margin: 0 auto;
+	margin-top: 18px;
+	float: none !important;
+	display: block;
+}
+.one-third.column.blue img{
+	margin-top: 46px;
+}
+.one-third.column.pink img{
+	margin-top: 37px;
+}
+.products-section p,
+.community p{
+	line-height: 27px;
+}
+.eight.columns.products-section,
+.eight.columns.community{
+	margin-top: 10px;
+	background-color:#FFF;
+	cursor: pointer;
+}
+.community{
+	padding-bottom: 0 !important;
+	overflow: hidden;
+	background-color:#FFF;
+}
+.japan-only-products{
+	margin-top: 18px;
+	overflow: hidden;
+}
+.testimonials{
+	margin-top: 112px;
+	margin-bottom: 60px;
+	position: relative;
+}
+#slider li p{
+	font-size: 19px;
+	line-height: 24px;
+	font-family: /*"minion-pro",serif;*/myriad, arial, helvetica;
+}
+.bold{
+	font-weight: bold;
+}
+.ie6 .slider-wrapper{
+	display: none;
+}
+.ie6 .back-up-slider{
+	display: block;
+}
+.slider-wrapper{
+	height: 180px;
+}
+.testimonials{
+	padding: 25px;
+}
+.header-nav{
+	display: none;
+	padding-top: 15px;
+	height: 46px;
+}
+.small-nav{
+	margin: 0 auto;
+}
+.product-images li{
+	float: left;
+	margin: 5px 0;
+	margin-right: 24px;
+	margin: 5px 32px 5px 0;
+}
+.product-images {
+	margin-top: 46px;
+}
+.product-images .general-no-right-margin{margin-right: 0;}
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.header-nav{
+			display: block;
+		}
+		.logo{
+			margin: 0 auto;
+			float: none !important;
+		}
+		.big-nav{
+			display: none;
+		}
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.product-images li{float: left;margin: 5px 62px 5px 0 !important;}
+		.product-images .general-no-right-margin {
+    		margin-right: 0 !important;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 480px) {
+		.product-images li{float: left;margin: 3px !important;}
+		h1.main {
+		    font-size: 35px;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.product-images li{float: left;margin: 5px 105px 5px 0 !important;}
+		.product-images .responsive-margin-mobile-land{margin-right: 0px !important;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.product-images li{float: left; margin: 3px !important;}
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+	@font-face {
+	    font-family: 'myriad';
+	    src: url('../fonts/myriad.eot');
+	    src: url('../fonts/myriad.eot?iefix') format('eot'),
+	         url('../fonts/myriad.woff') format('woff'),
+	         url('../fonts/myriad.ttf') format('truetype'),
+	         url('../fonts/myriad.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+/* For image replacement */
+.ir { border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; }
+
+/* #Custom Styles
+================================================== */
+/* 	These are custom styles */
+
+.header_container {
+padding: 0px 100px;
+}
+
+.green-hover h2 {
+	text-decoration:underline;
+}
+.pink-hover h2 {
+	text-decoration:underline;
+}
+.blue-hover h2 {
+	text-decoration:underline;
+}
+div.products-section.grey-hover h2 {
+	text-decoration:underline;
+}
+div.community.grey-hover h2 {
+	text-decoration:underline;
+}
