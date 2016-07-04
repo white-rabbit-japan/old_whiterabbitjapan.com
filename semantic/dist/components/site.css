@@ -221,3 +221,6 @@ h2.ui.center.aligned.dividing.header {
   width: 10px;
   width: .625rem;
 }
+.text-white {
+  color: #ffffff;
+}
