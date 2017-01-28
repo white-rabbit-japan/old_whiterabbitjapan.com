@@ -13,7 +13,7 @@
   width: 100%;
   height: auto;
   border-radius: inherit;
-  padding: 3rem;
+  padding: 4rem;
 }
 
 h2.ui.center.aligned.dividing.header {
