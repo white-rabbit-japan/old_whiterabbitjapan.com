@@ -8,6 +8,14 @@
   font-size: 1.5em;
 }
 
+.ui.card > .image > img.blackship-logo, .ui.cards > .card > .image > img.blackship-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+  padding: 3rem;
+}
+
 h2.ui.center.aligned.dividing.header {
   padding-top: 3em;
   margin-bottom: 1em;
@@ -81,4 +89,9 @@ h2.ui.center.aligned.dividing.header {
 
 .text-white {
   color: #ffffff;
+}
+
+h2.ui.black.dividing.header {
+  padding-bottom: .21428571rem;
+  border-bottom: 2px solid rgb(85, 85, 85);
 }

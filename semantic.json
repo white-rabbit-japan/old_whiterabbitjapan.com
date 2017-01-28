@@ -17,7 +17,7 @@
   },
   "permission": false,
   "rtl": false,
-  "version": "2.2.1",
+  "version": "2.2.7",
   "autoInstall": true,
   "components": [
     "reset",
