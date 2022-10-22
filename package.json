@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/white-rabbit-japan/whiterabbitjapan.com#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "semantic-ui": "^2.2.1"
   }
 }
